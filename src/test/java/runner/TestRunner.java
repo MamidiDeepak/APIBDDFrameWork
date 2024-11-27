@@ -2,6 +2,7 @@ package runner;
 
 import io.cucumber.testng.CucumberOptions;
 
+@RunWith(Cucumber.class)
 @CucumberOptions(
 //        features = {"src/test/resources/featureless"},
         features = {"src/test/resources/featurefiles"},
